@@ -1,0 +1,1 @@
+INSERT INTO TBL_STUDENT(EMAIL,CPF,LOCATION,NAME) VALUES('Vittor.Trigone.Dias@gmail.com','12345678900','Rua Tal!','Víttor Trigone Dias');

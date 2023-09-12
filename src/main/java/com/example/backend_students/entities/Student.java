@@ -29,30 +29,6 @@ public class Student implements Serializable {
     @Column(length = 1000, nullable = false, name = "location")
     private String location;
 
-    public String getCPF() {
-
-        return cpf;
-
-    }
-
-    public void setCPF(String cpf) {
-
-        this.cpf = cpf;
-
-    }
-
-    public String getLocation() {
-
-        return location;
-
-    }
-
-    public void setLocation(String location) {
-
-        this.location = location;
-
-    }
-
     public Long getId() {
 
         return id;
@@ -86,6 +62,30 @@ public class Student implements Serializable {
     public void setEmail(String email) {
 
         this.email = email;
+
+    }
+
+    public String getCPF() {
+
+        return cpf;
+
+    }
+
+    public void setCPF(String cpf) {
+
+        this.cpf = cpf;
+
+    }
+
+    public String getLocation() {
+
+        return location;
+
+    }
+
+    public void setLocation(String location) {
+
+        this.location = location;
 
     }
 
